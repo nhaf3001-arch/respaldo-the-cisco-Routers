@@ -123,9 +123,9 @@ def run_ssh_on_multiple_servers(server_list, username, password, commands, outpu
         thread.join()
 
 # Ejemplo de uso con los seis servidores:
-server_ips = ["10.211.110.10", "10.211.110.11", "10.211.108.33", "10.219.112.150"]
-cucm_username = "Sysadmin"
-cucm_password = "9exaGethed"
+server_ips = ["10.10.10.10", "10.10.10.11", "10.10.10.33", "10.10.10.150"]
+cucm_username = "admin"
+cucm_password = "admin"
 commands_to_execute = [
     "show risdb query phone"
    
